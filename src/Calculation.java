@@ -9,7 +9,7 @@ public class Calculation {
     void showResult(List<Double> list){
 
         double result = 0;
-        Addable addition = list.forEach((x)->result+=x);
-        addition.add();
+//        Addable addition = list.forEach(System.out::println);
+
     }
 }
